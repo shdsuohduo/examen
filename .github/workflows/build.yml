@@ -1,0 +1,8 @@
+name: build_project
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: building_projet
+      run: echo "тут идёт сборка"
