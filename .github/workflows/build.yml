@@ -5,4 +5,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: building_projet
-      run: echo "тут идёт сборка"
+        run: echo "тут идёт сборка"
